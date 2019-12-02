@@ -10,6 +10,6 @@ export class DataService {
 
   Select()
   {
-    return this.http.get("http://192.168.1.106:9898/product");
+    return this.http.get("http://172.18.4.147:9898/product");
   }
 }
